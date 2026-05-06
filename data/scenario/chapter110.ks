@@ -588,7 +588,7 @@ target: "*logos1_timeout"
 [name_clear]
 
 [tb_start_text mode=1 ]
-悪霊は大きく動揺した。[p]
+悪霊の力が大きく弱まった。[p]
 [_tb_end_text]
 
 [chara_mod  name="魚の悪霊"  time="600"  cross="true"  storage="chara/5/魚の悪霊①.png"  ]
@@ -633,7 +633,7 @@ target: "*logos1_timeout"
 [name_clear]
 
 [tb_start_text mode=1 ]
-悪霊は少し動揺した。[p]
+悪霊の力が少し弱まった。[p]
 [_tb_end_text]
 
 [jump  storage="chapter110.ks"  target="*tenuma_check_after_logos1"  ]
@@ -808,7 +808,7 @@ target: "*logos2_timeout"
 [name_clear]
 
 [tb_start_text mode=1 ]
-悪霊は大きく動揺した。[p]
+悪霊の力が大きく弱まった。[p]
 [_tb_end_text]
 
 [chara_mod  name="魚の悪霊"  time="600"  cross="true"  storage="chara/5/魚の悪霊①.png"  ]
@@ -955,7 +955,7 @@ target: "*logos3_timeout"
 [name_clear]
 
 [tb_start_text mode=1 ]
-悪霊は大きく動揺した。[p]
+悪霊の力が大きく弱まった。[p]
 [_tb_end_text]
 
 [chara_mod  name="魚の悪霊"  time="600"  cross="true"  storage="chara/5/魚の悪霊①.png"  ]
@@ -1113,7 +1113,7 @@ target: "*logos4_timeout"
 [name_clear]
 
 [tb_start_text mode=1 ]
-悪霊は大きく動揺した。[p]
+悪霊の力が大きく弱まった。[p]
 [_tb_end_text]
 
 [chara_mod  name="魚の悪霊"  time="600"  cross="true"  storage="chara/5/魚の悪霊①.png"  ]

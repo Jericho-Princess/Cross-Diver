@@ -361,11 +361,11 @@ tf.dive_gauge_y = 155 + (tf.dive_gauge_max_h - tf.dive_gauge_h);
 [eval exp="f.mental_max = 100"]
 [eval exp="f.mental = 100"]
 
-[eval exp="f.faith = 0"]
-[eval exp="f.empathy = 0"]
-[eval exp="f.knowledge = 0"]
-[eval exp="f.passion = 0"]
-[eval exp="f.spiritual = 0"]
+[eval exp="f.faith = 50"]
+[eval exp="f.empathy = 50"]
+[eval exp="f.knowledge = 50"]
+[eval exp="f.passion = 50"]
+[eval exp="f.spiritual = 25"]
 [eval exp="f.occult = 0"]
 
 [eval exp="f.rina_heart = 0"]
