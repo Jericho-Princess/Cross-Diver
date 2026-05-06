@@ -1,5 +1,6 @@
 [_tb_system_call storage=system/_gameover.ks]
 
+[call  storage="system/_chapter_init.ks"  target=""  ]
 *gameover_start
 
 
@@ -48,18 +49,8 @@
 あなたは心の世界から弾き出された。[p]
 [_tb_end_text]
 
-
-; ゲームオーバー表示
-
-
 [tb_hide_message_window  ]
-[ptext layer="1" page="fore" x="0" y="250" width="1280" align="center" size="80" color="0xff3333" edge="4px 0x000000" text="GAME OVER" name="gameover_text"]
-
 [wait  time="1000"  ]
-
-; 選択肢
-
-
 [glink  color="white"  storage="chapter109.ks"  size="30"  text="ダイブからやり直す"  target="*howtocommon"  ]
-[glink  color="white"  storage="title.ks"  size="30"  text="タイトルへ戻る"  target="*start"  ]
+[glink  color="black"  storage="title_screen.ks"  size="30"  text="タイトルに戻る"  ]
 [s  ]

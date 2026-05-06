@@ -86,12 +86,7 @@
 （精神を維持する為にも、あまり直視しないようにしよう。)[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="0"  buf="1"  storage="心臓の鼓動.mp3"  ]
-[eval exp="f.mental -= 5"]
-
-[damage_flash]
-
-[update_dive_gauge]
+[mental_damage value="5"]
 
 [name_you]
 
@@ -176,10 +171,7 @@
 
 [hide_dive_gauge]
 
-[playse  volume="100"  time="0"  buf="1"  storage="心臓の鼓動.mp3"  ]
-[eval exp="f.mental -= 4"]
-
-[damage_flash]
+[mental_damage value="5"]
 
 [hide_dive_gauge]
 
@@ -212,10 +204,7 @@
 
 [hide_dive_gauge]
 
-[playse  volume="100"  time="0"  buf="1"  storage="心臓の鼓動.mp3"  ]
-[eval exp="f.mental -= 4"]
-
-[damage_flash]
+[mental_damage value="4"]
 
 [hide_dive_gauge]
 
@@ -250,10 +239,7 @@
 
 [hide_dive_gauge]
 
-[playse  volume="100"  time="0"  buf="1"  storage="心臓の鼓動.mp3"  ]
-[eval exp="f.mental -= 3"]
-
-[damage_flash]
+[mental_damage value="3"]
 
 [hide_dive_gauge]
 
@@ -278,10 +264,7 @@
 
 [hide_dive_gauge]
 
-[playse  volume="100"  time="0"  buf="1"  storage="心臓の鼓動.mp3"  ]
-[eval exp="f.mental -= 4"]
-
-[damage_flash]
+[mental_damage value="4"]
 
 [hide_dive_gauge]
 
@@ -533,10 +516,7 @@
 
 [hide_dive_gauge]
 
-[playse  volume="100"  time="0"  buf="1"  storage="心臓の鼓動.mp3"  ]
-[eval exp="f.mental -= 5"]
-
-[damage_flash]
+[mental_damage value="5"]
 
 [hide_dive_gauge]
 
@@ -618,7 +598,8 @@
 この甘味と香り、たまらないな…。[p]
 [_tb_end_text]
 
-[tb_eval  exp="f.mental+=3"  name="mental"  cmd="+="  op="t"  val="3"  val_2="undefined"  ]
+[eval exp="f.mental = Math.min(f.mental_max, f.mental + 3)"]
+
 [update_dive_gauge]
 
 [name_system]
@@ -642,10 +623,7 @@
 
 [hide_dive_gauge]
 
-[playse  volume="100"  time="0"  buf="1"  storage="心臓の鼓動.mp3"  ]
-[eval exp="f.mental -= 9"]
-
-[damage_flash]
+[mental_damage value="9"]
 
 [stopse  time="0"  buf="0"  ]
 [stopbgm  time="500"  ]

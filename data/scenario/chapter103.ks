@@ -3,7 +3,7 @@
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [place_title text="メゾン・ド・オリーブ"]
 
-[playbgm  volume="70"  time="1000"  loop="true"  storage="「調査」 DBD file No.03.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="「調査」&nbsp;DBD&nbsp;file&nbsp;No.03.mp3"  ]
 [place_bg storage="メゾン・ド・オリーブ.png"]
 
 [name_clear]
@@ -41,7 +41,7 @@
 [name_clear]
 
 [tb_start_text mode=1 ]
-こちらの返事よりも先に、次の質問が飛んでくる。[p]
+こちらが返事をする前に、次の質問が飛んでくる。[p]
 俺は長距離運転の疲れで愛想よく返事する気力もなかった。[p]
 それにしても、この男はやけに元気そうだ。[p]
 [_tb_end_text]

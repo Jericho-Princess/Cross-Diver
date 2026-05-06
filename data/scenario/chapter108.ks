@@ -304,7 +304,7 @@
 [_tb_end_text]
 
 [glink  color="black"  storage="chapter108.ks"  size="25"  text="君には神様が必要だ。"  target="*Q9"  ]
-[glink  color="black"  storage="chapter108.ks"  size="25"  text="今から君を祈りで癒す。"  target="*Q10"  ]
+[glink  color="black"  storage="chapter108.ks"  size="25"  text="今から君の癒しを祈ってみる。"  target="*Q10"  ]
 [glink  color="black"  storage="chapter108.ks"  size="25"  text="一緒に祈ろうよ。"  target="*Q11"  ]
 [glink  color="black"  storage="chapter108.ks"  size="25"  text="心の傷から解放されたい？"  target="*Q12"  ]
 [s  ]

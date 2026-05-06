@@ -2,6 +2,8 @@
 
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [playse  volume="50"  time="2500"  buf="1"  storage="水ぶくぶく.mp3"  loop="true"  fadein="true"  ]
+[hide_dive_gauge]
+
 [place_title text="水槽部屋"]
 
 [place_bg storage="水槽部屋.png"]
@@ -1343,6 +1345,7 @@ window.tenumaBattleLocked = true;
 イエスの御名によって命じる。[r]ここから立ち去れ！！[p]
 [_tb_end_text]
 
+[stopse  time="1000"  buf="1"  fadeout="true"  ]
 [stopbgm  time="1000"  ]
 [playse  volume="100"  time="1000"  buf="3"  storage="雷魔法.mp3"  ]
 [chara_mod  name="魚の悪霊"  time="2000"  cross="true"  storage="chara/5/魚の悪霊③.png"  ]

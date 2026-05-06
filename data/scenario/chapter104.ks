@@ -41,8 +41,8 @@
 …ってことは、やっぱりこれを持つのが決まってたワケかも？[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/アイテム枠.png"  width="568"  height="423"  x="350"  y="125"  _clickable_img=""  name="img_36"  ]
-[tb_image_show  time="1000"  storage="default/端末①.png"  width="116"  height="205"  name="img_37"  x="575"  y="235"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/アイテム枠.png"  width="568"  height="423"  x="350"  y="125"  _clickable_img=""  name="img_15"  ]
+[tb_image_show  time="1000"  storage="default/端末①.png"  width="116"  height="205"  name="img_16"  x="575"  y="235"  _clickable_img=""  ]
 [name_clear]
 
 [tb_start_text mode=1 ]
@@ -65,8 +65,8 @@
 [_tb_end_text]
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/アイテム枠.png"  width="568"  height="423"  x="350"  y="125"  _clickable_img=""  name="img_44"  ]
-[tb_image_show  time="1000"  storage="default/端末②.png"  width="137"  height="240"  x="563"  y="219"  _clickable_img=""  name="img_43"  ]
+[tb_image_show  time="1000"  storage="default/アイテム枠.png"  width="568"  height="423"  x="350"  y="125"  _clickable_img=""  name="img_25"  ]
+[tb_image_show  time="1000"  storage="default/端末②.png"  width="137"  height="240"  x="563"  y="219"  _clickable_img=""  name="img_26"  ]
 [name_clear]
 
 [tb_start_text mode=1 ]

@@ -62,12 +62,23 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="鉄の扉を開ける.mp3"  ]
 [place_bg storage="エントランス①.png"]
 
+[name_system]
+
+[tb_start_text mode=1 ]
+この物語はあなたの選択が、あなたの魂の形を変化させるときがあります。[p]
+そして、その数値によって人間関係や運命が変わってしまうこともあります。[p]
+やり直しはできません。決断を誤らないように…。[p]
+画面右上の「ステータス」ボタンから、現在の魂の状態を確認できます。[r]画面を閉じる際はステータス画面下側の扉のボタンを押してください。[p]
+[_tb_end_text]
+
 [name_you]
 
 [tb_start_text mode=3 ]
 （顔も合わせず、抑揚の無い喋り方。どこか人間味のない奴らだったな。）[p][r]
 （そもそも何故、俺が選ばれたのだろうか？）[p][r]
 [_tb_end_text]
+
+[name_you]
 
 [tb_start_text mode=4 ]
 （まぁいい。さて、どこに行こうか…？）
@@ -93,24 +104,10 @@
 
 [_tb_end_text]
 
-[name_system]
-
-[tb_start_text mode=1 ]
-この物語はあなたの選択が、あなたの魂の形を変化させるときがあります。[p]
-そして、その数値によって人間関係や運命が変わってしまうこともあります。[p]
-やり直しはできません。決断を誤らないように…。[p]
-[_tb_end_text]
-
-[name_system]
-
-[tb_start_text mode=1 ]
-画面右上の「ステータス」ボタンがあなたの役に立つでしょう。[r]画面を閉じる際はステータス画面下側の扉のボタンを押してください。[p]
-[_tb_end_text]
-
 [name_you]
 
 [tb_start_text mode=4 ]
-部屋の中で何かを話し合っている声がする。盗み聞きができるかもしれない。
+（盗み聞きできるかもしれない。少し試してみるか…。）
 
 [_tb_end_text]
 
@@ -164,7 +161,6 @@
 [_tb_end_text]
 
 [jump  storage="chapter101.ks"  target="*maingate"  ]
-[glink  color="black"  storage=""  size="30"  target="*maingate"  text="メインゲートに行く"  autopos="true"  ]
 [s  ]
 [tb_hide_message_window  ]
 *maingate
@@ -313,7 +309,7 @@
 [jump  storage="chapter101.ks"  target="*Q3"  ]
 *Q2C
 
-[tb_eval  exp="f.knowledge+=2"  name="knowledge"  cmd="+="  op="t"  val="2"  val_2="undefined"  ]
+[tb_eval  exp="f.knowledge+=3"  name="knowledge"  cmd="+="  op="t"  val="3"  val_2="undefined"  ]
 [name_system]
 
 [tb_start_text mode=1 ]
@@ -353,7 +349,7 @@
 
 [tb_start_text mode=3 ]
 あなたの<堅信>が大きく上昇した。[r]
-あなたの<柔軟>が減少した。[p][r]
+あなたの<共感>が減少した。[p][r]
 [_tb_end_text]
 
 [jump  storage="chapter101.ks"  target="*Q4"  ]
@@ -432,7 +428,7 @@
 [name_system]
 
 [tb_start_text mode=3 ]
-あなたの<柔軟>が上昇した。[r]
+あなたの<共感>が上昇した。[r]
 あなたの<情熱>が少し上昇した。[p][r]
 [_tb_end_text]
 
@@ -500,7 +496,7 @@
 [name_system]
 
 [tb_start_text mode=3 ]
-あなたの<柔軟>が上昇した。[r]
+あなたの<共感>が上昇した。[r]
 あなたの<堅信>が大きく減少した。[p][r]
 [_tb_end_text]
 

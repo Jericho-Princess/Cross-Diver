@@ -26,7 +26,7 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="玄関ドアを開ける.mp3"  ]
 [place_title text="ショッピングモール"]
 
-[playbgm  volume="70"  time="1000"  loop="true"  storage="Sweet vermouth.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="Sweet-vermouth.mp3"  fadein="true"  ]
 [place_bg storage="モールのエントランス.png"]
 
 [name_you]
