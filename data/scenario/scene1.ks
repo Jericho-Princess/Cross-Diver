@@ -2,6 +2,7 @@
 
 *start
 
+[playse  volume="100"  time="1000"  buf="0"  storage="決定ボタン.mp3"  ]
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="黒スクリーン.png"  ]
 [tb_image_hide  time="1000"  ]
@@ -12,4 +13,6 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[wait  time="2000"  ]
 [jump  storage="chapter101.ks"  target=""  ]

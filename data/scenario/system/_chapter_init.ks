@@ -352,6 +352,24 @@ tf.dive_gauge_y = 155 + (tf.dive_gauge_max_h - tf.dive_gauge_h);
 
 
 ;==================================================
+; 知性による外れ選択肢ヒント色
+; f.knowledge >= 55 の時だけ外れ選択肢を青くする
+;==================================================
+
+[macro name="set_bad_choice_color"]
+
+[iscript]
+tf.bad_choice_color = "black";
+
+if (typeof f.knowledge !== "undefined" && Number(f.knowledge) >= 55) {
+    tf.bad_choice_color = "blue";
+}
+[endscript]
+
+[endmacro]
+
+
+;==================================================
 ; ニューゲーム用 ステータス完全初期化
 ; 最初から始める時だけ呼ぶ
 ;==================================================

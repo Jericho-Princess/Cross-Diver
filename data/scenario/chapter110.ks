@@ -94,14 +94,14 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-何故ここにいる？[r]ずっとここにいたのか？[p]
+何故ここにいる？[r]ずっとこの場所にいたのか？[p]
 [_tb_end_text]
 
 [name_dfish]
 
 [tb_start_text mode=1 ]
 最初からここにいたわけではない。[r]私は提案をし、彼女はそれを受け入れたのだ。[p]
-彼女は心の居場所を手に入れ、私も彼女を助けることができた。[p]
+彼女は心の拠り所を見つけ、私もこの場所を手に入れることができた。[p]
 これは助け合いなのだ。[p]
 [_tb_end_text]
 
@@ -385,6 +385,7 @@ window.tenumaBattleLocked = false;
 
 [tb_start_text mode=1 ]
 霊的な戦いにおいては、神の言葉こそが悪霊に対する最強の武器になります。[r]相手の言葉に対して神の真理に近い回答で反撃してください。[p]
+また、あなたの＜知性＞の数値次第では危険な選択肢が青く見えることもあります。[r]青い選択肢はなるべく選ばないようにしましょう。[p]
 戦闘中は時間制限が存在します。[r]選択肢が表示されてから一定時間経過するとダメージが発生します。[p]
 また戦闘時もダイブ使用中であり＜精神＞は常に消耗します。[r]あなたの＜精神＞が０にならないように気を付けてください。[p]
 [_tb_end_text]
@@ -407,7 +408,8 @@ window.tenumaBattleLocked = false;
 
 [tb_start_text mode=1 ]
 戦う…？[p]
-違うな。[r]ここでは、お前が溺れ死ぬだけだ。[p]
+違うな。[p]
+お前がここで溺れ死ぬだけだ。[p]
 [_tb_end_text]
 
 [playbgm  volume="70"  time="500"  loop="true"  storage="101.mp3"  fadein="true"  ]
@@ -495,7 +497,7 @@ window.tenumaCountdownInterval = null;
 ; ターン1の基本精神ダメージ
 
 
-[mental_damage value="6"]
+[mental_damage value="7"]
 
 [name_dfish]
 
@@ -560,8 +562,10 @@ target: "*logos1_timeout"
 }, 10000);
 [endscript]
 
+[set_bad_choice_color]
+
 [glink  color="black"  storage="chapter110.ks"  size="25"  text="神は人間を孤児にはしない"  target="*logos1_a"  autopos="true"  ]
-[glink  color="black"  storage="chapter110.ks"  size="25"  text="それでも人間は生きていける"  target="*logos1_b"  autopos="true"  ]
+[glink  color="&tf.bad_choice_color"  storage="chapter110.ks"  size="25"  text="それでも人間は生きていける"  target="*logos1_b"  autopos="true"  ]
 [glink  color="black"  storage="chapter110.ks"  size="25"  text="信仰のある人間に神は味方する"  target="*logos1_c"  autopos="true"  ]
 [s  ]
 *logos1_a
@@ -669,7 +673,7 @@ target: "*logos1_timeout"
 ; ターン2の基本精神ダメージ
 
 
-[mental_damage value="5"]
+[mental_damage value="6"]
 
 [name_dfish]
 
@@ -781,7 +785,7 @@ target: "*logos2_timeout"
 ; 追加ダメージ
 
 
-[mental_damage value="9"]
+[mental_damage value="12"]
 
 [jump  storage="chapter110.ks"  target="*tenuma_check_after_logos2"  ]
 *logos2_c
@@ -827,7 +831,7 @@ target: "*logos2_timeout"
 ; 時間切れ追加ダメージ
 
 
-[mental_damage value="7"]
+[mental_damage value="8"]
 
 [jump  storage="chapter110.ks"  target="*tenuma_check_after_logos2"  ]
 
@@ -845,7 +849,7 @@ target: "*logos2_timeout"
 ; ターン3の基本精神ダメージ
 
 
-[mental_damage value="4"]
+[mental_damage value="5"]
 
 [name_dfish]
 
@@ -920,13 +924,14 @@ target: "*logos3_timeout"
 [name_you]
 
 [tb_start_text mode=1 ]
-お前よりかは知っているつもりだ。[p]
+お前よりは知っているつもりだ。[p]
 [_tb_end_text]
 
 [name_dfish]
 
 [tb_start_text mode=1 ]
 出会って１日で何が理解できる？[r]私は何年もここにいるのだ。[r]全ての悩みを聞いてきたのだ。[p]
+お前は何も知らない部外者なのだ。[p]
 [_tb_end_text]
 
 [jump  storage="chapter110.ks"  target="*tenuma_check_after_logos3"  ]
@@ -986,7 +991,7 @@ target: "*logos3_timeout"
 ; 追加ダメージ
 
 
-[mental_damage value="8"]
+[mental_damage value="13"]
 
 [jump  storage="chapter110.ks"  target="*tenuma_check_after_logos3"  ]
 *logos3_timeout
@@ -1003,7 +1008,7 @@ target: "*logos3_timeout"
 ; 時間切れ追加ダメージ
 
 
-[mental_damage value="7"]
+[mental_damage value="8"]
 
 [jump  storage="chapter110.ks"  target="*tenuma_check_after_logos3"  ]
 
@@ -1021,7 +1026,7 @@ target: "*logos3_timeout"
 ; ターン4の基本精神ダメージ
 
 
-[mental_damage value="4"]
+[mental_damage value="6"]
 
 [name_dfish]
 
@@ -1085,8 +1090,10 @@ target: "*logos4_timeout"
 }, 10000);
 [endscript]
 
+[set_bad_choice_color]
+
 [glink  color="black"  storage="chapter110.ks"  size="25"  text="神の真理が人を自由にする"  target="*logos4_a"  autopos="true"  ]
-[glink  color="black"  storage="chapter110.ks"  size="25"  text="自由が無いから人生は楽しい"  target="*logos4_b"  autopos="true"  ]
+[glink  color="&tf.bad_choice_color"  storage="chapter110.ks"  size="25"  text="自由が無いから人生は楽しい"  target="*logos4_b"  autopos="true"  ]
 [glink  color="black"  storage="chapter110.ks"  size="25"  text="どんな道も切り開いて見せる"  target="*logos4_c"  autopos="true"  ]
 [s  ]
 *logos4_a
@@ -1166,7 +1173,7 @@ target: "*logos4_timeout"
 ; 時間切れ追加ダメージ
 
 
-[mental_damage value="7"]
+[mental_damage value="8"]
 
 [jump  storage="chapter110.ks"  target="*tenuma_check_after_logos4"  ]
 
@@ -1306,7 +1313,7 @@ target: "*logos5_timeout"
 ; 最終ターンの時間切れ追加ダメージ
 
 
-[mental_damage value="7"]
+[mental_damage value="9"]
 
 
 ; 5ターン生存扱いで勝利へ
@@ -1349,11 +1356,11 @@ window.tenumaBattleLocked = true;
 
 [name_clear]
 
+[chara_hide  name="魚の悪霊"  time="8000"  wait="false"  ]
 [tb_start_text mode=1 ]
 魚の悪霊は塵になって消えていく。[p]
 [_tb_end_text]
 
-[chara_hide  name="魚の悪霊"  time="2500"  wait="true"  ]
 [playse  volume="100"  time="500"  buf="3"  storage="風が吹く.mp3"  fadein="true"  ]
 [playse  volume="100"  time="0"  buf="4"  storage="鉄の扉を開ける.mp3"  fadein="true"  ]
 [name_clear]
@@ -1361,10 +1368,14 @@ window.tenumaBattleLocked = true;
 [tb_start_text mode=1 ]
 扉が開き、部屋に風が吹いた。[p]
 そして風はその塵をどこかに連れて行った。[p]
-部屋が明るくなっていく。[p]
 [_tb_end_text]
 
-[place_bg storage="水槽部屋③.png"]
+[bg  time="5000"  method="crossfade"  storage="水槽部屋③.png"  ]
+[name_clear]
+
+[tb_start_text mode=1 ]
+部屋が明るくなっていく。[p]
+[_tb_end_text]
 
 [name_you]
 
@@ -1374,6 +1385,7 @@ window.tenumaBattleLocked = true;
 
 [playse  volume="100"  time="0"  buf="4"  storage="玄関ドアを開ける.mp3"  fadein="true"  ]
 [stopse  time="2000"  buf="3"  fadeout="true"  ]
+[wait  time="1500"  ]
 [bg  time="4000"  method="crossfade"  storage="リナの心の世界（倉庫②）.png"  ]
 [name_rina]
 

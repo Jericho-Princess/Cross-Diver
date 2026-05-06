@@ -3,7 +3,7 @@
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [place_title text="＜祈りの丘＞公園"]
 
-[playbgm  volume="70"  time="1000"  loop="true"  storage="終焉の音.mp3"  ]
+[playbgm  volume="60"  time="1000"  loop="true"  storage="終焉の音.mp3"  ]
 [place_bg storage="祈りの丘公園②.png"]
 
 [chara_show  name="コタニ"  time="1000"  wait="true"  storage="chara/3/コタニ⑤微笑.png"  width="609"  height="916"  left="120"  top="20"  reflect="false"  ]
@@ -120,7 +120,7 @@
 [name_kotani]
 
 [tb_start_text mode=1 ]
-オッケー。また連絡するね。[r]そっちから連絡しても良いよ？[p]
+オッケー。じゃあ、また連絡するね。[r]そっちから連絡しても良いよ？[p]
 [_tb_end_text]
 
 [name_you]
@@ -201,7 +201,6 @@
 [name_rina]
 
 [tb_start_text mode=1 ]
-えっ、どうしてそんなこと言えるの？[r]アモちゃんに会ったこともないのにね、変なの。[p]
 …。[p]
 …そうね、私もそうだと嬉しいかな。[p]
 [_tb_end_text]
@@ -245,10 +244,16 @@
 
 [tb_start_text mode=1 ]
 …。[p]
-…私、これからどうしたらいいと思う？[p]
+…ねぇ、私、これからどうしたらいいと思う？[p]
 だって結局、何も変わってないじゃん？[r]お母さんだって、みんなだって、急に分かり合えるようになるわけじゃない。[p]
 …。[p]
 私ね…やっぱり…。[p]
+[_tb_end_text]
+
+[wait  time="1500"  ]
+[name_rina]
+
+[tb_start_text mode=1 ]
 まだ…人が嫌いかも…。[p]
 [_tb_end_text]
 

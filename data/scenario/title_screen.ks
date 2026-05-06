@@ -9,8 +9,9 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[bg  time="2000"  method="crossfade"  storage="黒スクリーン.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="時の訪問者.mp3"  ]
+[bg  time="2000"  method="crossfade"  storage="黒スクリーン.png"  ]
 [bg  time="3000"  method="crossfade"  storage="タイトル画像.png"  ]
 [glink  color="black"  storage="scene1.ks"  size="30"  x="325"  y="580"  width="500"  height="30"  text="テストバージョンを起動"  _clickable_img=""  target="*start"  autopos="false"  ]
 [s  ]
