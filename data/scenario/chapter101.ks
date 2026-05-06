@@ -7,7 +7,7 @@
 [wait  time="2000"  ]
 [stopse  time="5000"  buf="0"  fadeout="true"  ]
 [bg  time="5000"  method="crossfade"  storage="最高会議室前.png"  ]
-[glink  color="black"  storage="chapter101.ks"  size="50"  x="415"  y="460"  width="300"  height="30"  text="扉を開ける"  _clickable_img=""  target="*openthedoor"  autopos="false"  ]
+[glink  color="black"  storage="chapter101.ks"  size="50"  x="400"  y="430"  width="300"  height="50"  text="扉を開ける"  _clickable_img=""  target="*openthedoor"  autopos="true"  ]
 [s  ]
 *openthedoor
 
