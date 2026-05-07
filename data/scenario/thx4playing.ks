@@ -20,6 +20,7 @@
 
 [name_clear]
 
+[tb_hide_message_window  ]
 [wait  time="2000"  ]
 [stopse  time="1000"  buf="0"  ]
 [jump  storage="title_screen.ks"  target=""  ]
