@@ -303,8 +303,8 @@
 
 [name_you]
 
-[tb_start_text mode=1 ]
-（リナか…どう声をかけようか…？）[p]
+[tb_start_text mode=4 ]
+（リナか…どう声をかけようか…？）
 [_tb_end_text]
 
 [glink  color="black"  storage="chapter108.ks"  size="25"  text="君には神様が必要だ。"  target="*Q9"  ]
