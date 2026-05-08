@@ -534,4 +534,5 @@
 
 [chara_hide  name="トゥアン"  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="chapter102.ks"  target=""  ]

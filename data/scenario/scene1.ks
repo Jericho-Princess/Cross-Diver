@@ -14,5 +14,5 @@
 
 [tb_hide_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[wait  time="1000"  ]
+[wait  time="2000"  ]
 [jump  storage="chapter101.ks"  target=""  ]

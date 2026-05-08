@@ -3,7 +3,7 @@
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [place_title text="＜祈りの丘＞公園"]
 
-[playbgm  volume="70"  time="2000"  loop="true"  storage="終焉の音.mp3"  fadein="true"  ]
+[playbgm  volume="65"  time="2000"  loop="true"  storage="終焉の音.mp3"  fadein="true"  ]
 [place_bg storage="祈りの丘公園①.png"]
 
 [name_clear]

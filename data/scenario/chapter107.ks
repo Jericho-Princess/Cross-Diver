@@ -26,7 +26,7 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="玄関ドアを開ける.mp3"  ]
 [place_title text="ショッピングモール"]
 
-[playbgm  volume="70"  time="1000"  loop="true"  storage="Sweet-vermouth.mp3"  fadein="true"  ]
+[playbgm  volume="40"  time="1000"  loop="true"  storage="Sweet-vermouth.mp3"  fadein="true"  ]
 [place_bg storage="モールのエントランス.png"]
 
 [name_you]
@@ -50,6 +50,7 @@
 [_tb_end_text]
 
 [chara_show  name="リナ"  time="1000"  wait="true"  storage="chara/4/リナ①通常.png"  width="575"  height="865"  left="555"  top="137"  reflect="false"  ]
+[tb_eval  exp="f.rina_heart=50"  name="rina_heart"  cmd="="  op="t"  val="50"  val_2="undefined"  ]
 [name_rina]
 
 [tb_start_text mode=1 ]

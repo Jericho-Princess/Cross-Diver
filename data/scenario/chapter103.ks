@@ -3,7 +3,7 @@
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [place_title text="メゾン・ド・オリーブ"]
 
-[playbgm  volume="70"  time="1000"  loop="true"  storage="「調査」&nbsp;DBD&nbsp;file&nbsp;No.03.mp3"  ]
+[playbgm  volume="70"  time="1000"  loop="true"  storage="調査ファイル03.mp3"  ]
 [place_bg storage="メゾン・ド・オリーブ.png"]
 
 [name_clear]

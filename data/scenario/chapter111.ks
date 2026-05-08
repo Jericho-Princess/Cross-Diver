@@ -132,10 +132,10 @@
 
 [chara_hide  name="コタニ"  time="1000"  wait="false"  pos_mode="false"  ]
 [chara_hide  name="リナ"  time="1000"  wait="true"  pos_mode="false"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="街の道路.mp3"  loop="true"  ]
+[playse  volume="60"  time="2000"  buf="0"  storage="街の道路.mp3"  loop="true"  fadein="true"  ]
 [place_title text="帰路"]
 
-[playbgm  volume="70"  time="1000"  loop="true"  storage="朝露の小庭.mp3"  fadein="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="朝露の小庭.mp3"  fadein="true"  ]
 [place_bg storage="帰路①.png"]
 
 [name_rina]
