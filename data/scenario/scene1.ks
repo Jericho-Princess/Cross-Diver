@@ -3,10 +3,6 @@
 *start
 
 [playse  volume="100"  time="1000"  buf="0"  storage="決定ボタン.mp3"  ]
-[tb_start_tyrano_code]
-tyrano.plugin.kag.config.holdSkip = "false";
-[_tb_end_tyrano_code]
-
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="黒スクリーン.png"  ]
 [tb_image_hide  time="1000"  ]

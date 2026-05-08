@@ -19,6 +19,7 @@
 
 [name_council]
 
+[wait  time="1500"  ]
 [tb_start_text mode=1 ]
 何故、君が呼ばれたのか…。[p]
 もうわかっているはずだ…。[p]
