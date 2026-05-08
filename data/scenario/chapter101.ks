@@ -14,16 +14,14 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="鉄の扉を開ける.mp3"  ]
 [place_title text="世界福音最高議会"]
 
-[playbgm  volume="100"  time="500"  loop="true"  storage="魔力に満ちた部屋.mp3"  fadein="true"  ]
+[playbgm  volume="90"  time="1000"  loop="true"  storage="魔力に満ちた部屋.mp3"  fadein="true"  ]
 [place_bg storage="世界福音最高議会.png"]
 
 [name_council]
 
 [tb_start_text mode=1 ]
-何故、君が呼ばれたのか…。[r]もうわかっているはずだ…。[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
+何故、君が呼ばれたのか…。[p]
+もうわかっているはずだ…。[p]
 あの街にて、我らが神、その救いの流れが止まったのだ…。[p]
 見たまえ…。[p]
 [_tb_end_text]
