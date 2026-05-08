@@ -100,3 +100,4 @@
 ;useCloseConfirm=true
 ;offscreenClickable=true
 ;holdSkip = "false"
+;SMO_right_click_hold = "false"
