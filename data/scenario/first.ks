@@ -26,7 +26,7 @@
 ;[title name="now loading"]
 
 ;タイトル画面表示
-[jump storage="title_screen"]
+[jump storage="title_screen.ks"]
 
 ;--------------------------
 
