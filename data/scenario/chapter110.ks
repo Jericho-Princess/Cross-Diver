@@ -1457,5 +1457,7 @@ window.tenumaBattleLocked = true;
 うん。[p]
 [_tb_end_text]
 
+[hide_dive_gauge]
+
 [stopse  time="1000"  buf="0"  ]
 [jump  storage="chapter111.ks"  target=""  ]

@@ -22,5 +22,8 @@
 
 [tb_hide_message_window  ]
 [wait  time="2000"  ]
+[tb_image_show  time="3000"  storage="default/Ichthys.png"  width="750"  height="325"  x="265"  y="135"  _clickable_img=""  name="img_0"  ]
+[tb_image_show  time="3000"  storage="default/logo.png"  width="680"  height="121"  x="300"  y="515"  _clickable_img=""  name="img_1"  ]
+[tb_image_hide  time="1000"  ]
 [stopse  time="1000"  buf="0"  ]
-[jump  storage="title_screen.ks"  target=""  ]
+[jump  storage="title_screen.ks"  target="*start"  ]

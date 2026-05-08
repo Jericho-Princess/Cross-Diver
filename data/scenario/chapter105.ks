@@ -2,7 +2,7 @@
 
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [bg  time="1000"  method="crossfade"  storage="黒スクリーン.png"  ]
-[wait  time="2000"  ]
+[wait  time="3000"  ]
 [playbgm  volume="70"  time="1000"  loop="true"  storage="軋み.mp3"  fadein="true"  ]
 [playse  volume="15"  time="2000"  buf="0"  storage="呼吸音.mp3"  loop="true"  fadein="true"  ]
 [place_bg storage="黒スクリーン.png"]
@@ -58,7 +58,7 @@
 [name_clear]
 
 [tb_start_text mode=1 ]
-しまった、寝すぎてしまった。[p]
+しまった、つい寝すぎてしまった。[p]
 もうすぐコタニがやってくる時間だ。急いで支度をしなくては。[p]
 [_tb_end_text]
 

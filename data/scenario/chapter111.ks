@@ -3,7 +3,7 @@
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [place_title text="＜祈りの丘＞公園"]
 
-[playbgm  volume="60"  time="1000"  loop="true"  storage="終焉の音.mp3"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="終焉の音.mp3"  ]
 [place_bg storage="祈りの丘公園②.png"]
 
 [chara_show  name="コタニ"  time="1000"  wait="true"  storage="chara/3/コタニ⑤微笑.png"  width="609"  height="916"  left="120"  top="20"  reflect="false"  ]
@@ -67,7 +67,7 @@
 
 [tb_start_text mode=1 ]
 あれ！？アッハハ！！[r]っていうか、なんでそんなにゲッソリしてるの？[p]
-戦争帰りみたいな顔してるよ？[r]ハハッ、可笑しいね。[p]
+ハハッ、おかしいね。[p]
 [_tb_end_text]
 
 [name_you]
@@ -132,10 +132,10 @@
 
 [chara_hide  name="コタニ"  time="1000"  wait="false"  pos_mode="false"  ]
 [chara_hide  name="リナ"  time="1000"  wait="true"  pos_mode="false"  ]
-[playse  volume="60"  time="2000"  buf="0"  storage="街の道路.mp3"  loop="true"  fadein="true"  ]
+[playse  volume="45"  time="2000"  buf="0"  storage="街の道路.mp3"  loop="true"  fadein="true"  ]
 [place_title text="帰路"]
 
-[playbgm  volume="80"  time="1000"  loop="true"  storage="morning.mp3"  fadein="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="Morning-Due.mp3"  fadein="true"  ]
 [place_bg storage="帰路①.png"]
 
 [name_rina]

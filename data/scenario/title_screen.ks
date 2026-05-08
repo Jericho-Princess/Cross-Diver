@@ -9,6 +9,8 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+*start
+
 [stopbgm  time="1000"  fadeout="true"  ]
 [playbgm  volume="80"  time="1000"  loop="true"  storage="時の訪問者.mp3"  ]
 [bg  time="2000"  method="crossfade"  storage="黒スクリーン.png"  ]

@@ -3,7 +3,7 @@
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [place_title text="メゾン・ド・オリーブ"]
 
-[playbgm  volume="70"  time="1000"  loop="true"  storage="調査ファイル03.mp3"  ]
+[playbgm  volume="70"  time="1500"  loop="true"  storage="調査ファイル03.mp3"  fadein="true"  ]
 [place_bg storage="メゾン・ド・オリーブ.png"]
 
 [name_clear]
@@ -33,9 +33,7 @@
 
 [tb_start_text mode=1 ]
 あ、「さん」はいらないですよ。コタニでいいですよ。[p]
-いやぁ、遠かったでしょ？道は混んでいなかったですか？[p]
-何か飲みます？お茶とコーヒー、どっちにします？[p]
-もう23時ですよ？お疲れでしょう？[p]
+いやぁ、遠かったでしょ？道は混んでいなかったですか？[r]何か飲みます？お茶とコーヒー、どっちにします？[r]もう23時ですよ？お疲れでしょう？[p]
 [_tb_end_text]
 
 [name_clear]
