@@ -135,7 +135,7 @@
 [playse  volume="60"  time="2000"  buf="0"  storage="街の道路.mp3"  loop="true"  fadein="true"  ]
 [place_title text="帰路"]
 
-[playbgm  volume="80"  time="1000"  loop="true"  storage="朝露の小庭.mp3"  fadein="true"  ]
+[playbgm  volume="80"  time="1000"  loop="true"  storage="morning.mp3"  fadein="true"  ]
 [place_bg storage="帰路①.png"]
 
 [name_rina]
