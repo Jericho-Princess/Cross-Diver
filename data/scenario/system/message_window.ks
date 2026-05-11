@@ -1,6 +1,6 @@
 ;メッセージレイヤの定義
 
-		[position width=1215 height=288 top=432 left=18 ]
+		[position width=1260 height=288 top=432 left=30 ]
 
 
 		
@@ -34,7 +34,7 @@
 		;[position layer="message1" left=160 top=500 width=1000 height=200 radius=15 page=fore visible=true color="white" opacity=255 border_size="3" border_color="black" ]
 		;[position layer="message1" page=fore margint="15" marginl="20" marginr="20" marginb="20"]
 
-		[position layer="message1" width=1215 height=288 top=432 left=18 ]
+		[position layer="message1" width=1260 height=288 top=432 left=30 ]
 		[position layer="message1" page=fore margint=5 marginl=10 marginr=10 marginb=10 vertical=false opacity="180" radius="20" color="0x000000" ]
 
 		;glink_configの設定
