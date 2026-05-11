@@ -45,7 +45,7 @@
 ;autoRecordLabel=false
 ;unReadTextSkip=false
 ;alreadyReadTextColor=0x87cefa
-;numCharacterLayers=3
+;numCharacterLayers=6
 ;scPositionX.left=160
 ;scPositionX.left_center=240
 ;scPositionX.center=320
@@ -82,7 +82,7 @@
 ;defaultAntialiased=1
 ;defaultShadow=false
 ;defaultShadowColor=0x000000
-;defaultEdge=false
+;defaultEdge=true
 ;defaultEdgeColor=0x000000
 ;defaultLinkColor=0x0080ff
 ;defaultLinkOpacity=64
@@ -91,7 +91,7 @@
 ;firstKeyFocusType=first
 ;keyFocusWithMouseCursor=true
 ;keyFocusWithHoverStyle=true
-;keyFocusOutlineWidth=2
+;keyFocusOutlineWidth=0
 ;keyFocusOutlineStyle=solid
 ;keyFocusOutlineColor=0x000000
 ;keyFocusOutlineAnim=flash_momentary
