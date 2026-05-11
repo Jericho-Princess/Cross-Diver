@@ -70,6 +70,10 @@
 
 [eval exp="f.mental_max = 100"]
 
+[eval exp="f.mental_overlay_active = 0"]
+
+[eval exp="f.mental_warning_done = 0"]
+
 [show_dive_gauge]
 
 [name_clear]
