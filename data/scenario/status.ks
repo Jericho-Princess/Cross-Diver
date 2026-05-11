@@ -58,7 +58,7 @@
 ; 3. 閉じるボタンは最後
 ;==================================================
 
-[button layer="1" page="fore" name="status_exit_btn" graphic="status_exit.png" x="1073" y="385" target="*status_close" storage="status.ks" height="75" _clickable_img="name"]
+[button layer="1" page="fore" name="status_exit_btn" graphic="status_exit.png" x="1075" y="385" target="*status_close" storage="status.ks" height="75" _clickable_img="name"]
 
 [s]
 
