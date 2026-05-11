@@ -1,4 +1,6 @@
 //ティラノビルダーによる自動ビルド　
+;debugMenu.visible=false
+;configSave=webstorage
 ;global.config_version=6.00
 ;System.title=Cross_Diver
 ;projectID=Cross_Diver
@@ -31,10 +33,9 @@
 ;defaultMovieVolume=100
 ;defaultBgmSlotNum=1
 ;defaultSoundSlotNum=3
-;configVisible=false
+;configVisible=true
 ;configLeft=-1
 ;configTop=-1
-;configSave=webstorage
 ;configThumbnail=true
 ;configThumbnailQuality=middle
 ;configThumbnailScale=0.3
@@ -45,7 +46,7 @@
 ;autoRecordLabel=false
 ;unReadTextSkip=false
 ;alreadyReadTextColor=0x87cefa
-;numCharacterLayers=6
+;numCharacterLayers=3
 ;scPositionX.left=160
 ;scPositionX.left_center=240
 ;scPositionX.center=320
@@ -66,7 +67,6 @@
 ;mt=16
 ;mw=960-32
 ;mh=640-32
-;debugMenu.visible=true
 ;frameColor=0x000000
 ;frameOpacity=128
 ;defaultAutoReturn=true
