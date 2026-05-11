@@ -113,7 +113,6 @@
 
 [endmacro]
 
-
 ;==================================================
 ; 話者フォーカス
 ;==================================================
@@ -302,29 +301,92 @@ tf.dive_gauge_y = 155 + (tf.dive_gauge_max_h - tf.dive_gauge_h);
 
 [macro name="damage_flash"]
 
-; 前のフラッシュを消す
 [freeimage layer="2" page="fore" name="damage_flash_img"]
 
-; 赤い外周画像をじんわり表示
 [image layer="2" page="fore" storage="default/damage_flash.png" x="0" y="0" width="1280" height="720" name="damage_flash_img" time="500" wait="true"]
 
-; いったん少し見せる
 [wait time="150"]
 
-; 少し弱まる
 [anim layer="2" name="damage_flash_img" opacity="60" time="400"]
 [wa]
 
-; 2拍目：もう一度少し赤くなる
 [anim layer="2" name="damage_flash_img" opacity="150" time="500"]
 [wa]
 
-; じんわり消える
 [anim layer="2" name="damage_flash_img" opacity="0" time="900"]
 [wa]
 
-; 消す
 [freeimage layer="2" page="fore" name="damage_flash_img"]
+
+[endmacro]
+
+
+;==================================================
+; 精神力低下 overlay
+; テスト中：f.mental <= 90
+; 本番：f.mental <= 20
+;==================================================
+
+[macro name="update_mental_warning"]
+
+[layopt layer="3" visible="true"]
+
+
+;==================================================
+; 精神が一定以下ならoverlayをじんわり表示
+;==================================================
+
+[if exp="f.mental <= 20 && f.mental_overlay_active != 1"]
+
+[eval exp="f.mental_overlay_active = 1"]
+
+[freeimage layer="3" page="fore" name="mental_low_overlay"]
+
+; まず画像を配置
+[image layer="3" page="fore" storage="default/mental_low_overlay.png" x="0" y="0" width="1280" height="720" name="mental_low_overlay" time="0" wait="false"]
+
+; 即座に透明化
+[anim layer="3" name="mental_low_overlay" opacity="0" time="0"]
+[wa]
+
+; ここでじんわり表示
+[anim layer="3" name="mental_low_overlay" opacity="180" time="1200"]
+[wa]
+
+[endif]
+
+
+;==================================================
+; 初回だけ警告セリフ
+;==================================================
+
+[if exp="f.mental <= 20 && f.mental_warning_done != 1"]
+
+[eval exp="f.mental_warning_done = 1"]
+
+[name_you]
+
+[tb_start_text mode=1]
+（精神の限界が近い…。）[p]
+[_tb_end_text]
+
+[endif]
+
+
+;==================================================
+; 精神が回復したらoverlayを消す
+;==================================================
+
+[if exp="f.mental > 20 && f.mental_overlay_active == 1"]
+
+[eval exp="f.mental_overlay_active = 0"]
+
+[anim layer="3" name="mental_low_overlay" opacity="0" time="800"]
+[wa]
+
+[freeimage layer="3" page="fore" name="mental_low_overlay"]
+
+[endif]
 
 [endmacro]
 
@@ -342,14 +404,15 @@ tf.dive_gauge_y = 155 + (tf.dive_gauge_max_h - tf.dive_gauge_h);
 
 [damage_flash]
 
-[update_dive_gauge]
+[show_dive_gauge]
+
+[update_mental_warning]
 
 [if exp="f.mental <= 0"]
 [jump storage="gameover.ks" target="*gameover_start"]
 [endif]
 
 [endmacro]
-
 
 ;==================================================
 ; 知性による外れ選択肢ヒント色
