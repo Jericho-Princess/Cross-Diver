@@ -1,0 +1,5 @@
+[preload  storage="./data/fgimage/chara/4/リナ②孤独.png"  ]
+[preload  storage="./data/fgimage/chara/4/リナ①通常.png"  ]
+[preload  storage="./data/fgimage/chara/4/リナ⑥驚き.png"  ]
+[preload  storage="./data/bgimage/黒スクリーン.png"  ]
+[return]
