@@ -1,4 +1,9 @@
 <div id="menu_backlog_wrapper">
+
+    <!-- 背景画像は最初に置く -->
+    <img class="img_bg_base" src="./tyrano/images/system/bg_base.png" />
+    <img class="img_label img_label_backlog" src="./tyrano/images/system/label_backlog.png" />
+
     <div class="display_menu">
         <!-- 閉じるボタン -->
         <div class="menu_item" style="float: right; margin: 20px 10px 0 0">
@@ -14,11 +19,6 @@
         <div class="log_body"></div>
     </div>
 
-    <!-- 背景とタイトル画像 -->
-    <img class="img_label img_label_backlog" src="./tyrano/images/system/label_backlog.png" />
-    <img class="img_bg_base" src="./tyrano/images/system/bg_base.png" />
-
-    <!-- ボタンホバー時に画像を変更する -->
     <script>
         $("#menu_backlog_wrapper .menu_item img").each((i, elm) => {
             const j_elm = $(elm);

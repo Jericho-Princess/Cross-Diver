@@ -1,13 +1,13 @@
-<div id="menu_save_wrapper">
+<div>
     <!-- 閉じるボタン -->
     <div class="menu_item" style="float: right; margin: 20px 10px 0 0">
-        <img class="menu_close" src="./tyrano/images/system/menu_button_close.png" />
+        <img class="menu_close" src="./tyrano/images/system/menu_button_close.png" style="width: 100px;">
     </div>
 
     <!-- スクロールボタン -->
     <div style="clear: both"></div>
-    <img class="button_smart button_arrow_up" src="./tyrano/images/system/arrow_up.png" style="left: 670px; top: 20px" />
-    <img class="button_smart button_arrow_down" src="./tyrano/images/system/arrow_down.png" style="left: 800px; top: 15px" />
+    <img class="button_smart button_arrow_up" src="./tyrano/images/system/arrow_up.png" style="left: 670px; top: 20px">
+    <img class="button_smart button_arrow_down" src="./tyrano/images/system/arrow_down.png" style="left: 800px; top: 15px">
 
     <!-- セーブデータリスト -->
     <!-- JsRender記法を使用 https://qiita.com/kurukuruz/items/f53a17d7e78dca8677b8 -->
@@ -17,7 +17,7 @@
             <li class="save_display_area save_list_item" data-num="{{>num}}">
                 <span class="save_list_item_thumb">
                     {{if img_data != ""}}
-                    <img src="{{>img_data}}" />
+                    <img src="{{>img_data}}">
                     {{/if}}
                 </span>
                 <span class="save_list_item_area">
@@ -30,23 +30,9 @@
     </div>
 
     <!-- 背景とタイトル画像 -->
-    <img class="img_label img_label_save" src="./tyrano/images/system/label_save.png" />
-    <img class="img_bg_base" src="./tyrano/images/system/bg_base.png" />
+    <img class="img_label img_label_save" src="./tyrano/images/system/label_save.png" style="width: 580px;">
+    <img class="img_bg_base" src="./tyrano/images/system/bg_base.png">
 
     <!-- ボタンホバー時に画像を変更する -->
-    <script>
-        $("#menu_save_wrapper .menu_item img").each((i, elm) => {
-            const j_elm = $(elm);
-            const original_src = j_elm.attr("src");
-            const hover_src = original_src.replace(".png", "2.png");
-            j_elm.hover(
-                () => {
-                    j_elm.attr("src", hover_src);
-                },
-                () => {
-                    j_elm.attr("src", original_src);
-                },
-            );
-        });
-    </script>
-</div>
+    
+<script>	setTimeout(function(){		var save_list_height = parseInt($(".tyrano_base").outerHeight()) - parseInt($(".save_list").offset().top) ;		$(".area_save_list").css("height",save_list_height);	},30);</script></div>
