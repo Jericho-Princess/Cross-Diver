@@ -61,9 +61,6 @@
 *howtocommon
 
 [playse  volume="100"  time="0"  buf="2"  storage="鉄の扉を開ける.mp3"  ]
-
-[playse  volume="15"  time="2000"  buf="0"  storage="呼吸音.mp3"  loop="true"  fadein="true"  ]
-
 [place_title text="＜リナ＞心の世界"]
 
 [playbgm  volume="80"  time="1000"  loop="true"  storage="軋み.mp3"  ]
