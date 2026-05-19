@@ -3,7 +3,7 @@
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [place_title text="＜祈りの丘＞公園"]
 
-[playbgm  volume="50"  time="1000"  loop="true"  storage="終焉の音.mp3"  ]
+[playbgm  volume="45"  time="2000"  loop="true"  storage="終焉の音.mp3"  fadein="true"  ]
 [place_bg storage="祈りの丘公園②.png"]
 
 [chara_show  name="コタニ"  time="1000"  wait="true"  storage="chara/3/コタニ⑤微笑.png"  width="609"  height="916"  left="120"  top="20"  reflect="false"  ]
@@ -49,7 +49,7 @@
 あ、ちょっと待って！？あっ、リナちゃん起きた！？[r]大丈夫！？生きてる！？[r]何見たの！？教えてよ！？神様見た！？[p]
 [_tb_end_text]
 
-[chara_show  name="リナ"  time="1000"  wait="true"  storage="chara/4/解放リナ①通常.png"  width="473"  height="713"  left="549"  top="136"  reflect="false"  ]
+[chara_show  name="リナ"  time="1000"  wait="true"  storage="chara/4/解放リナ①通常.png"  width="473"  height="713"  left="602"  top="136"  reflect="false"  ]
 [name_rina]
 
 [tb_start_text mode=1 ]
@@ -307,9 +307,9 @@
 [_tb_end_text]
 
 [wait  time="1500"  ]
+[bg  time="4000"  method="fadeIn"  storage="黒スクリーン.png"  ]
 [name_clear]
 
-[bg  time="4000"  method="fadeIn"  storage="黒スクリーン.png"  ]
 [tb_start_text mode=1 ]
 チャプター１　「Calling Me」　END[p]
 [_tb_end_text]
