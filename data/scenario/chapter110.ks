@@ -42,7 +42,7 @@
 
 [bg  time="1000"  method="crossfade"  storage="水槽部屋②.png"  ]
 [chara_show  name="魚の悪霊"  time="1000"  wait="true"  storage="chara/5/魚の悪霊①.png"  width="552"  height="830"  left="367"  top="-155"  reflect="false"  ]
-[playbgm  volume="50"  time="0"  loop="true"  storage="100.mp3"  ]
+[playbgm  volume="70"  time="0"  loop="true"  storage="蠢く.mp3"  ]
 [name_clear]
 
 [tb_start_text mode=1 ]
@@ -65,7 +65,7 @@
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
-何を話そうか？それとも戦うか？
+（何を話そうか？それとも戦うか？）
 [_tb_end_text]
 
 [glink  color="black"  storage="chapter110.ks"  size="25"  text="彼女の心から出ていけ。"  target="*Q1"  autopos="true"  ]
@@ -134,7 +134,7 @@
 [name_you]
 
 [tb_start_text mode=4 ]
-何を話そうか？それとも戦うか？
+（何を話そうか？それとも戦うか？）
 [_tb_end_text]
 
 [glink  color="black"  storage="chapter110.ks"  size="25"  text="この街に他の悪霊はいる？"  target="*Q4"  autopos="true"  ]
@@ -237,7 +237,7 @@
 [name_you]
 
 [tb_start_text mode=4 ]
-何を話そうか？それとも戦うか？
+（何を話そうか？それとも戦うか？）
 [_tb_end_text]
 
 [glink  color="black"  storage="chapter110.ks"  size="25"  text="イエスキリストがお前を見ている。"  target="*Q7"  autopos="true"  ]
@@ -409,7 +409,7 @@
 お前がここで溺れ死ぬだけだ。[p]
 [_tb_end_text]
 
-[playbgm  volume="70"  time="500"  loop="true"  storage="101.mp3"  fadein="true"  ]
+[playbgm  volume="65"  time="0"  loop="true"  storage="Dangerous-scene.mp3"  fadein="true"  ]
 [jump  storage="chapter110.ks"  target="*logos1"  ]
 
 ;==================================================
@@ -500,7 +500,7 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-わたしはあなたがたを捨てて孤児とはしない。[r]あなたがたのところに帰って来る。[r]新約聖書 ヨハネによる福音書 14:18 にそう書いてある。[p]
+わたしはあなたがたを捨てて孤児とはしない。[r]あなたがたのところに帰って来る。[r]新約聖書 ヨハネによる福音書 １４：１８ にそう書いてある。[p]
 イエスキリストの御名により命じる。[r]出ていけ！！[p]
 [_tb_end_text]
 
@@ -659,7 +659,7 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-いや、違う……俺は……。[p]
+いや、違う…俺は…。[p]
 [_tb_end_text]
 
 
@@ -677,7 +677,7 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-見よ、わたしは世の終りまで、[r]いつもあなたがたと共にいるのである。[r]新約聖書 マタイによる福音書 28:20 にそう書いてある。[p]
+見よ、わたしは世の終りまで、[r]いつもあなたがたと共にいるのである。[r]新約聖書 マタイによる福音書 ２８：２０ にそう書いてある。[p]
 イエスキリストの御名により命じる。[r]出ていけ！！[p]
 [_tb_end_text]
 
@@ -778,7 +778,7 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-神である主を愛しなさい。[r]また、隣人を自分のように愛しなさい。[r]新約聖書 ルカによる福音書 10:27 にそう書いてある。[p]
+神である主を愛しなさい。[r]また、隣人を自分のように愛しなさい。[r]新約聖書 ルカによる福音書 １０：２７ にそう書いてある。[p]
 その人を知るのは愛することにおいて重要ではない。[p]
 イエスキリストの御名により命じる。[r]出ていけ！！[p]
 [_tb_end_text]
@@ -809,7 +809,7 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-俺にはこのダイブがある。[r]全てを知ることができる。[p]
+俺にはこのダイブがある。[r]これで全てを知ることができる。[p]
 [_tb_end_text]
 
 [name_dfish]
@@ -821,7 +821,7 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-いや、違う……。[r]俺は……神の真理を……。[p]
+いや、違う…。[r]俺は…神の真理を…。[p]
 [_tb_end_text]
 
 
@@ -893,7 +893,7 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-あなたたちは真理を知るであろう。[r]そして真理は、あなたがたに自由を得させるであろう。[r]新約聖書 ヨハネによる福音書 8:32 にそう書いてある。[p]
+あなたたちは真理を知るであろう。[r]そして真理は、あなたがたに自由を得させるであろう。[r]新約聖書 ヨハネによる福音書 ８：３２ にそう書いてある。[p]
 人は神により自由になれる。イエスキリストの御名により命じる。[r]出ていけ！！[p]
 [_tb_end_text]
 
@@ -923,7 +923,7 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-たしかに制約に満ちた人生かもしれない。[r]それを楽しむ方法だってきっとある。[r]見つけてみせる。[p]
+たしかに制約に満ちた人生かもしれない。[r]それを楽しむ方法だってきっとある。[r]俺たちはそれを見つけてみせる。[p]
 [_tb_end_text]
 
 [name_dfish]
@@ -1173,7 +1173,7 @@ window.tenumaBattleLocked = true;
 [tb_start_text mode=1 ]
 意識せず、自然とそう祈ってしまった…。[p]
 すると不思議なことに、この世界は少しだけ明るくなった。[p]
-そして、彼はちゃんと来てくれた…。[p]
+そして、[font color=#FFF100] ＜彼＞ [resetfont]はちゃんと来てくれた…。[p]
 
 [_tb_end_text]
 
@@ -1190,7 +1190,7 @@ window.tenumaBattleLocked = true;
 
 [tb_start_text mode=1 ]
 これは…？[p]
-あ…私…。[r]この人のことを知っているかも…？[p]
+あ…私…。[r]この人のことを知っている…？[p]
 そっか…そういうことだったんだ…。[p]
 [_tb_end_text]
 

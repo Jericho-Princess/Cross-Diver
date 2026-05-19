@@ -53,7 +53,7 @@
 
 [resetfont  ]
 [tb_start_text mode=3 ]
-まずはメインゲートに行き、トゥアンと話をしろ。[r]君に必要な物を用意してくれているはずだ。[p][r]
+まずはメインゲートに行き、[font color=#FFF100] ＜トゥアン＞ [resetfont]と話をしろ。[r]君に必要な物を用意してくれているはずだ。[p][r]
 [_tb_end_text]
 
 [tb_image_hide  time="500"  ]
@@ -64,9 +64,9 @@
 [name_system]
 
 [tb_start_text mode=1 ]
-この物語はあなたの選択が、あなたの魂の形を変化させるときがあります。[p]
-そして、その数値によって人間関係や運命が変わってしまうこともあります。[p]
-やり直しはできません。決断を誤らないように…。[p]
+この物語はあなたの選択が、あなたの魂の形を変化させることがあります。[p]
+そして、その数値によって人間関係や運命が変わってしまう時もあります。[p]
+どうか決断を誤らないように…。[p]
 画面右上の「ステータス」ボタンから、現在の魂の状態を確認できます。[r]画面を閉じる際はステータス画面下側の扉のボタンを押してください。[p]
 [_tb_end_text]
 
@@ -280,7 +280,7 @@
 [_tb_end_text]
 
 [wait  time="1500"  ]
-[glink  color="black"  storage="chapter101.ks"  size="25"  text="霊的な物との接触"  autopos="true"  target="*Q2A"  ]
+[glink  color="black"  storage="chapter101.ks"  size="25"  text="霊的な存在との接触"  autopos="true"  target="*Q2A"  ]
 [glink  color="black"  storage="chapter101.ks"  size="25"  text="目の前の人が救われる"  autopos="true"  target="*Q2B"  ]
 [glink  color="black"  storage="chapter101.ks"  size="25"  text="自分の信じている物が正しいと証明される"  autopos="true"  target="*Q2C"  ]
 [glink  color="black"  storage="chapter101.ks"  size="25"  text="誰かが自分を信じてくれる"  autopos="true"  target="*Q2D"  ]
@@ -517,7 +517,7 @@
 
 [tb_start_text mode=1 ]
 ありがとう。忘れないようにしておくよ。[p]
-それじゃあ行ってくる。[r]あの街、[font color=#FFF100] ＜聖見＞[resetfont]へ。[p]
+それじゃあ行ってくる。[r]あの街、[font color=#FFF100] ＜聖見＞（ヒジリミ）[resetfont]へ。[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="0"  storage="鉄の扉を開ける.mp3"  ]
