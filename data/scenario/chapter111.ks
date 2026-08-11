@@ -141,7 +141,7 @@
 [playse  volume="45"  time="2000"  buf="0"  storage="街の道路.mp3"  loop="true"  fadein="true"  ]
 [place_title text="帰路"]
 
-[playbgm  volume="80"  time="500"  loop="true"  storage="Morning-Due.mp3"  fadein="true"  ]
+[playbgm  volume="80"  time="500"  loop="true"  storage="morning-due.mp3"  fadein="true"  ]
 [place_bg storage="way-back1.png"]
 
 [name_rina]

@@ -250,7 +250,7 @@
 [place_bg storage="p-church_3.png"]
 
 [stopbgm  time="2000"  fadeout="true"  ]
-[playbgm  volume="60"  time="2000"  loop="true"  storage="Morning-Due.mp3"  fadein="true"  ]
+[playbgm  volume="60"  time="2000"  loop="true"  storage="morning-due.mp3"  fadein="true"  ]
 [chara_show  name="ハナフサ"  time="1000"  wait="true"  storage="chara/8/hanafusa-1.png"  width="711"  height="1059"  left="26"  top="2"  reflect="false"  ]
 [name_hanafusa]
 
