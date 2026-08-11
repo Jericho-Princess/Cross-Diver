@@ -1,7 +1,0 @@
-[preload  storage="./data/fgimage/chara/3/コタニ⑦驚愕.png"  ]
-[preload  storage="./data/fgimage/default/アイテム枠.png"  ]
-[preload  storage="./data/fgimage/default/端末①.png"  ]
-[preload  storage="./data/fgimage/chara/3/コタニ⑤微笑.png"  ]
-[preload  storage="./data/fgimage/default/端末②.png"  ]
-[preload  storage="./data/fgimage/chara/3/コタニ③爆笑.png"  ]
-[return]

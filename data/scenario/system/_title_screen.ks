@@ -1,5 +1,0 @@
-[preload  storage="./data/fgimage/default/Ichthys.png"  ]
-[preload  storage="./data/fgimage/default/logo.png"  ]
-[preload  storage="./data/bgimage/黒スクリーン.png"  ]
-[preload  storage="./data/bgimage/タイトル画像.png"  ]
-[return]
