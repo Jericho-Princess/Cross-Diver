@@ -1,7 +1,0 @@
-[preload  storage="./data/bgimage/p-church_preach.png"  ]
-[preload  storage="./data/fgimage/default/item-frame.png"  ]
-[preload  storage="./data/fgimage/default/hakujo.png"  ]
-[preload  storage="./data/fgimage/chara/9/noda-3.png"  ]
-[preload  storage="./data/fgimage/chara/9/noda-1.png"  ]
-[preload  storage="./data/fgimage/chara/9/noda-2.png"  ]
-[return]

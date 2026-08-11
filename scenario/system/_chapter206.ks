@@ -1,8 +1,0 @@
-[preload  storage="./data/fgimage/default/item-frame.png"  ]
-[preload  storage="./data/fgimage/default/phone4.png"  ]
-[preload  storage="./data/bgimage/yumekaen_2.png"  ]
-[preload  storage="./data/bgimage/yumekaen_3.png"  ]
-[preload  storage="./data/bgimage/yumekaen_4.png"  ]
-[preload  storage="./data/bgimage/yumekaen_5.png"  ]
-[preload  storage="./data/bgimage/yumekaen_6.png"  ]
-[return]

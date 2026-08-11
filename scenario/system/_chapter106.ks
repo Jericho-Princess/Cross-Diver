@@ -1,7 +1,0 @@
-[preload  storage="./data/bgimage/shopping-mall_market.png"  ]
-[preload  storage="./data/fgimage/chara/3/コタニ③爆笑.png"  ]
-[preload  storage="./data/fgimage/chara/3/コタニ⑤微笑.png"  ]
-[preload  storage="./data/fgimage/chara/3/コタニ⑥饒舌.png"  ]
-[preload  storage="./data/fgimage/chara/3/コタニ⑧通話.png"  ]
-[preload  storage="./data/fgimage/chara/3/コタニ④驚き.png"  ]
-[return]
