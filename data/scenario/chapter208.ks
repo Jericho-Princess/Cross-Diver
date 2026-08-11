@@ -97,6 +97,8 @@
 [jump  storage="chapter208.ks"  target="*hospital_start"  ]
 *hospital_start
 
+[hide_dive_gauge]
+
 [place_title text="＜ノダ＞心の世界"]
 
 [playbgm  volume="80"  time="1000"  loop="true"  storage="軋み.mp3"  ]
@@ -117,9 +119,13 @@
 
 [mental_damage value="5"]
 
+[hide_dive_gauge]
+
 [place_title text="ノダの心の世界/n２Ｆ　ロビー"]
 
 [place_bg storage="noda-hospital_lobby.png"]
+
+[show_dive_gauge]
 
 [name_clear]
 
@@ -226,7 +232,7 @@
 [_tb_end_text]
 
 [cm  ]
-[glink  color="black"  storage="chapter208.ks"  size="25"  text="２Ｆ　病棟"  target="*floor_2_ward"  autopos="true"  ]
+[glink  color="black"  storage="chapter208.ks"  size="25"  text="２Ｆ　病棟エリア"  target="*floor_2_ward"  autopos="true"  ]
 [glink  color="black"  storage="chapter208.ks"  size="25"  text="１Ｆ　エントランス"  target="*floor_1"  autopos="true"  ]
 [s  ]
 
@@ -239,9 +245,13 @@
 
 [mental_damage value="3"]
 
+[hide_dive_gauge]
+
 [place_title text="ノダの心の世界/n２Ｆ 病棟"]
 
 [place_bg storage="noda-hospital_ward.png"]
+
+[show_dive_gauge]
 
 [name_clear]
 
@@ -262,9 +272,13 @@
 [mental_damage value="2"]
 
 [playse  volume="100"  time="0"  buf="0"  storage="玄関ドアを開ける.mp3"  fadein="false"  ]
+[hide_dive_gauge]
+
 [place_title text="ノダの心の世界/n２Ｆ　２１３号室"]
 
 [place_bg storage="noda-hospital_room.png"]
+
+[show_dive_gauge]
 
 [name_clear]
 
@@ -371,9 +385,13 @@
 
 [mental_damage value="4"]
 
+[hide_dive_gauge]
+
 [place_title text="ノダの心の世界/n地下"]
 
 [place_bg storage="noda-hospital_b1.png"]
+
+[show_dive_gauge]
 
 [name_clear]
 
@@ -416,9 +434,13 @@
 [mental_damage value="4"]
 
 [playse  volume="100"  time="1000"  buf="1"  storage="鉄の扉を開ける.mp3"  ]
+[hide_dive_gauge]
+
 [place_title text="ノダの心の世界/n地下　霊安室"]
 
 [place_bg storage="noda-hospital_morgue.png"]
+
+[show_dive_gauge]
 
 [name_clear]
 
@@ -476,9 +498,13 @@
 
 [mental_damage value="1"]
 
+[hide_dive_gauge]
+
 [place_title text="ノダの心の世界/n１Ｆ　エントランス"]
 
 [place_bg storage="noda-hospital_entrance.png"]
+
+[show_dive_gauge]
 
 *floor1_s
 
@@ -525,9 +551,13 @@
 
 [mental_damage value="4"]
 
+[hide_dive_gauge]
+
 [place_title text="ノダの心の世界/n１Ｆ　調剤室"]
 
 [place_bg storage="noda-hospital_pharmacy.png"]
+
+[show_dive_gauge]
 
 [name_clear]
 
@@ -579,9 +609,13 @@
 
 [mental_damage value="5"]
 
+[hide_dive_gauge]
+
 [place_title text="ノダの心の世界/n１Ｆ　手術室"]
 
 [place_bg storage="noda-hospital_or.png"]
+
+[show_dive_gauge]
 
 [name_clear]
 
@@ -626,9 +660,13 @@
 
 [mental_damage value="5"]
 
+[hide_dive_gauge]
+
 [place_title text="ノダの心の世界/n１Ｆ　手術室"]
 
 [place_bg storage="noda-hospital_or-door.png"]
+
+[show_dive_gauge]
 
 [name_clear]
 

@@ -13,6 +13,8 @@
 [eval exp="f.demon_hunter = 100"]
 
 [playse  volume="15"  time="500"  buf="0"  storage="呼吸音.mp3"  loop="true"  ]
+[hide_dive_gauge]
+
 [scene_clear]
 
 [place_title text="ノダの心の世界/n１Ｆ　手術室"]
@@ -20,6 +22,8 @@
 [playbgm  volume="50"  time="300"  loop="true"  storage="不気味な街灯.mp3"  fadein="false"  ]
 [wait  time="500"  ]
 [place_bg storage="noda-hospital_battle1.png"]
+
+[show_dive_gauge]
 
 [name_clear]
 
