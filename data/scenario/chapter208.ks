@@ -4,6 +4,7 @@
 
 [call  storage="system/_chapter_init.ks"  target=""  ]
 [eval exp="f.mental_warning_done = 0"]
+
 [cm  ]
 
 ; gameover.ks 共通リトライ用：Chapter208から倒れた場合はこの章の開始地点へ戻す
@@ -152,7 +153,7 @@
 [name_clear]
 
 [tb_start_text mode=1 ]
-そこには摘出された臓器や人の部位などが展示されていたのだ。それもただの臓器ではない。[p]
+そこには摘出された臓器や人の部位などが展示されていたのだ。[r]それもただの臓器ではない。[p]
 それは醜く歪み、金属片のような物が埋め込まれている。[p]
 [_tb_end_text]
 
