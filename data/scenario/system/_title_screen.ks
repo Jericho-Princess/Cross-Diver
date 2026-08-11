@@ -1,0 +1,5 @@
+[preload  storage="./data/fgimage/default/ichthys.png"  ]
+[preload  storage="./data/fgimage/default/logo.png"  ]
+[preload  storage="./data/bgimage/black-screen.png"  ]
+[preload  storage="./data/bgimage/title.png"  ]
+[return]
