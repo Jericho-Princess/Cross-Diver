@@ -1,0 +1,7 @@
+[preload  storage="./data/fgimage/chara/9/noda-5.png"  ]
+[preload  storage="./data/fgimage/chara/9/noda-6.png"  ]
+[preload  storage="./data/fgimage/chara/9/noda-4.png"  ]
+[preload  storage="./data/fgimage/chara/9/noda-7.png"  ]
+[preload  storage="./data/fgimage/chara/9/noda-8.png"  ]
+[preload  storage="./data/bgimage/black-screen.png"  ]
+[return]

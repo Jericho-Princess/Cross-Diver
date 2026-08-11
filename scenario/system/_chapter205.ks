@@ -1,0 +1,4 @@
+[preload  storage="./data/fgimage/default/item-frame.png"  ]
+[preload  storage="./data/fgimage/default/phone3.png"  ]
+[preload  storage="./data/bgimage/roots_2.png"  ]
+[return]
