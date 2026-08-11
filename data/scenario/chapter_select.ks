@@ -11,7 +11,7 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="決定ボタン.mp3"  ]
 [clearstack]
 
-[clearfix]
+[clearfix name="status_btn"]
 
 [bg  storage="mirror.png"  time="500"  ]
 

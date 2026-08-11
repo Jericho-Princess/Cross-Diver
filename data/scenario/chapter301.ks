@@ -14,7 +14,8 @@
 端末には誰かのIDが表示されている。[p]
 [_tb_end_text]
 
-[tb_image_show  time="1000"  storage="default/端末④.png"  width="301"  height="448"  x="490"  y="38"  _clickable_img=""  ]
+[tb_image_show  time="0"  storage="default/item-frame.png"  width="424"  height="424"  x="818"  y="60"  _clickable_img=""  name="img_7"  ]
+[tb_image_show  time="1000"  storage="default/phone4.png"  width="221"  height="331"  x="919"  y="112"  _clickable_img=""  ]
 [stopse  time="1000"  buf="0"  ]
 [name_someone]
 
