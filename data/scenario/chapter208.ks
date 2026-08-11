@@ -247,7 +247,7 @@
 
 [hide_dive_gauge]
 
-[place_title text="ノダの心の世界/n２Ｆ 病棟"]
+[place_title text="ノダの心の世界/n２Ｆ　病棟"]
 
 [place_bg storage="noda-hospital_ward.png"]
 
