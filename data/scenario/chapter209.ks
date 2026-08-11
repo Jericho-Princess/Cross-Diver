@@ -99,8 +99,8 @@
 今回も上手く摘出できたな。[p]
 [_tb_end_text]
 
-[tb_image_show  time="0"  storage="default/item-frame.png"  width="424"  height="424"  x="818"  y="60"  _clickable_img=""  name="img_41"  ]
-[tb_image_show  time="1000"  storage="default/exhibit2.png"  width="365"  height="365"  x="847"  y="106"  _clickable_img=""  name="img_42"  ]
+[tb_image_show  time="0"  storage="default/item-frame.png"  width="424"  height="424"  x="818"  y="60"  _clickable_img=""  name="img_43"  ]
+[tb_image_show  time="1000"  storage="default/exhibit2.png"  width="365"  height="365"  x="847"  y="106"  _clickable_img=""  name="img_44"  ]
 [name_dhunter]
 
 [tb_start_text mode=1 ]
@@ -154,8 +154,8 @@
 えっと、それから…この薬を摘出部位に塗ってやるのだ。[p]
 [_tb_end_text]
 
-[tb_image_show  time="0"  storage="default/item-frame.png"  width="424"  height="424"  x="818"  y="60"  _clickable_img=""  name="img_64"  ]
-[tb_image_show  time="1000"  storage="default/medicine.png"  width="382"  height="382"  x="839"  y="105"  _clickable_img=""  name="img_65"  ]
+[tb_image_show  time="0"  storage="default/item-frame.png"  width="424"  height="424"  x="818"  y="60"  _clickable_img=""  name="img_66"  ]
+[tb_image_show  time="1000"  storage="default/medicine.png"  width="382"  height="382"  x="839"  y="105"  _clickable_img=""  name="img_67"  ]
 [name_you]
 
 [tb_start_text mode=1 ]
@@ -218,7 +218,7 @@
 [wait  time="1000"  ]
 [glink  color="black"  storage="chapter209.ks"  size="25"  text="どうしてここにいる？"  target="*Q1"  autopos="true"  ]
 [glink  color="black"  storage="chapter209.ks"  size="25"  text="彼はお前の物ではない"  target="*Q2"  autopos="true"  ]
-[glink  color="black"  storage="chapter209.ks"  size="25"  text="お前は今までどこにいた？"  target="*Q3"  autopos="true"  ]
+[glink  color="black"  storage="chapter209.ks"  size="25"  text="今までどれだけの人を苦しめた？"  target="*Q3"  autopos="true"  ]
 [glink  color="red"  storage="chapter209.ks"  size="25"  text="戦いを始める"  target="*battlebegin"  autopos="true"  x="0"  y="0"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *Q1
@@ -305,7 +305,7 @@
 [name_you]
 
 [tb_start_text mode=1 ]
-お前は今までどこにいた？最初からここにいたわけではないだろ？[p]
+ノダさんだけじゃない。お前は今までどれだけの人を苦しめた？[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.knowledge+=2"  name="knowledge"  cmd="+="  op="t"  val="2"  ]
@@ -313,7 +313,9 @@
 [name_dhunter]
 
 [tb_start_text mode=1 ]
-古い時代から＜そこ＞にいた。私は居場所を変えたりはしない。[r]ただ、呼び水や罠の形を変えるだけだ。[p]
+とても長い年月をかけて狩りをしていた…。[r]お前の想像なぞ、遠く及ばない程になるだろうな…。[p]
+私は古い時代から＜そこ＞にいたのだ、居場所を変えたりはしない。[p]
+ただ、呼び水や罠の形を変え、そこにかかった獲物を狩るだけだ。[p]
 [_tb_end_text]
 
 [name_you]
@@ -1532,4 +1534,6 @@
 [_tb_end_text]
 
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
+[hide_dive_gauge]
+
 [jump  storage="chapter210.ks"  target=""  ]
