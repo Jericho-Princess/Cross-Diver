@@ -251,7 +251,7 @@
 [bg  time="1000"  method="crossfade"  storage="yumekaen_3.png"  ]
 [tb_start_text mode=1 ]
 僕が成人してからは、こっちも殴り返したりできるようになって、[r]アイツも大人しくなったけど、けっこう大変だったかもね。[r]まぁ、おかげでケンカはかなり強くなったよ？[p]
-中学の時とかさ、１対３で絡まれた時もさ、最初にこう鼻をバーンとさ、そしたら、[r]すごい相手鼻血出しちゃってさ、それから、思いっきり蹴りをさ…[p]
+中学の時とかさ、１対３で絡まれた時もさ、最初にこう…鼻をバーンとさ、そしたら、[r]すごい相手鼻血出しちゃってさ、それから、思いっきり蹴りをさ…[p]
 [_tb_end_text]
 
 [name_clear]
@@ -354,9 +354,9 @@
 [_tb_end_text]
 
 [jump  storage="chapter206.ks"  target="*Question"  ]
-[bg  time="1000"  method="crossfade"  storage="yumekaen_5.png"  ]
 *common
 
+[bg  time="1000"  method="crossfade"  storage="yumekaen_5.png"  ]
 [name_you]
 
 [tb_start_text mode=1 ]
