@@ -30,8 +30,8 @@ var __tyrano_key_config = {
 		"swipe_left_1": "auto",
 		"swipe_right_1": "menu",
 		"hold": "",
-		"mash_right_2": "auto",
-		"mash_right_3": "skip",
+		"mash_right_2": "",
+		"mash_right_3": "",
 		"mash_left_2": "",
 		"mash_left_3": ""
 	},
