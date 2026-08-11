@@ -1360,8 +1360,10 @@
 
 [tb_start_text mode=1 ]
 もういい…終わりにしよう。[p]
+イエスの御名によって命じる。ここから立ち去れ。[p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="3"  storage="雷魔法.mp3"  ]
 [tb_image_hide  time="1000"  ]
 [name_dhunter]
 
